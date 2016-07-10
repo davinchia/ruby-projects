@@ -1,3 +1,13 @@
+'''
+Author: Davin Chia
+
+Simple Sudouku Solver using Backtracking
+
+To run:
+1) Download directory
+2) Run sudouku.rb 
+3) Input test cases or create your own
+'''
 def formatInput(unformattedCSV)
   return unformattedCSV.split('').map(&:to_i).each_slice(9).to_a
 end
